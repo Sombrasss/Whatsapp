@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecionamento para WhatsApp</title>
+    <script type="text/javascript">
+        window.onload = function() {
+            var phoneNumber = "244946748023"; // Substitua com o número de telefone desejado no formato internacional
+            var message = "Olá, envia o vidio."; // Substitua com a mensagem que deseja enviar
+            var url = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
+            window.location.href = url;
+        };
+    </script>
+</head>
+<body>
+    <p>Redirecionando para o WhatsApp...</p>
+</body>
+</html>
